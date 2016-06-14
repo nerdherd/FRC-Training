@@ -6,6 +6,7 @@
   * [Introduction to Github](github/intro.md)
 * Java
   * [Introduction to Java](java/intro.md)
+  * [Object Oriented Programming](java/oop.md)
 * Arduino
   * [Introduction to Arduino](arduino/intro.md)
   * [Arduino Programming](arduino/programming.md)
