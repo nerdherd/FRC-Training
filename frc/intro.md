@@ -1,7 +1,7 @@
 # Introduction to Robot Programming
 
 ### What is Robot Programming?
-Robot programming is an interface for the drivers to control the robot. Although invisible and intangible, software is one of the most important parts of the robot. As I like to say, "Good software can make a bad robot win but bad software will make a good robot loose".
+Robot programming is an interface for the drivers to control the robot. Although invisible and intangible, software is one of the most important parts of the robot. As I like to say, "Good software can make a bad robot win but bad software will make a good robot lose".
 
 ### Game Structure
 Most FRC games are structured into two different periods: a 15 second autonomous period and a 2 minute and 15 second teleoperated period. During the autonomous period, robots act on their own as the drivers must stay clear of the driver station. During the teleoperated period, the drivers step forward and take the controls to direct their robots to victory.
@@ -68,7 +68,8 @@ The setup panel contains all settings vital to the driver station functioning pr
 The USB Devices panel is where all joysticks and computer connected peripherals are configured to be mapped to certain ports. To change the ports, each device can be dragged up and down to a different spot, and the devices can be locked in by double clicking them.
 
 ###### Power
+![](driverstation-power.png "Figure 5: The Power Panel")
+The final panel provides important information that can help debug why the roboRIO might not be functioning -- the amount of power that is being provided to each spot of the roboRIO power supply.
 
-
-### Automation
-> incomplete
+### Good Software vs Bad Software
+Why is programming important? As stated earlier, "Good software can make a bad robot win but bad software will make a good robot lose". This is all because driver's skills may vary, but the software will always function the same. The more automated the code is, the more consistent the results would be. Also, automated code will make the drivers' jobs easier, and they already have a lot to worry about.
